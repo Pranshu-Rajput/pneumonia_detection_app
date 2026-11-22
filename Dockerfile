@@ -1,7 +1,7 @@
 # Container for the pneumonia detection app
 
 # Start from a small Python image
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 # Install the system library that OpenCV needs
 RUN apt-get update && apt-get install -y --no-install-recommends libglib2.0-0 \
